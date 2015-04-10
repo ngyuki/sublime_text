@@ -36,7 +36,28 @@ ini ファイルのシンタックスハイライト
 
 ### Markdown Extended
 
-markdown syntax highlight
+Mmarkdown ファイルのシンタックスハイライト。
+
+### All Autocomplete
+
+オートコンプリートを強化する（効果ある？）。
+
+### AutoFileName
+
+CSS などでファイル名を入力補完する。
+
+### RecentActiveFiles
+
+最近使用したファイルを一覧表示。
+
+### Terminal
+
+コンテキストメニューからターミナルを起動する。
+Windows だとパワーシェルが起動するのでイマイチ。
+
+### Mac Terminal
+
+Mac でコンテキストメニューからターミナルを起動？
 
 ## その他
 
