@@ -1,0 +1,503 @@
+[
+  {
+    "caption": "-"
+  },
+  {
+    "caption": "New File…",
+    "command": "side_bar_new_file",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "New Folder…",
+    "command": "side_bar_new_directory",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "-"
+  },
+  {
+    "caption": "Open / Run",
+    "command": "side_bar_open",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Open In Browser",
+    "command": "side_bar_open_in_browser",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Open In New Window",
+    "command": "side_bar_open_in_new_window",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Open With Finder",
+    "command": "side_bar_open_with_finder",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Open Containing Folder",
+    "command": "side_bar_reveal",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Open Bash",
+    "command": "ore_bash_for_side_bar",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Open With",
+    "children": [
+      {
+        "caption": "-"
+      },
+      {
+        "caption": "Edit Applications…",
+        "command": "side_bar_files_open_with_edit_applications",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "-"
+      }
+    ]
+  },
+  {
+    "caption": "-"
+  },
+  {
+    "caption": "Find & Replace…",
+    "command": "side_bar_find_in_selected",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Find Files Named…",
+    "command": "side_bar_find_files_path_containing",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Find Advanced",
+    "children": [
+      {
+        "caption": "In Parent Folder…",
+        "command": "side_bar_find_in_parent",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "-"
+      },
+      {
+        "caption": "In Project…",
+        "command": "side_bar_find_in_project",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "In Project Folder…",
+        "command": "side_bar_find_in_project_folder",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "In Project Folders…",
+        "command": "side_bar_find_in_project_folders"
+      },
+      {
+        "caption": "-"
+      },
+      {
+        "command": "side_bar_find_in_files_with_extension",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "In Paths Containing…",
+        "command": "side_bar_find_files_path_containing",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "-"
+      },
+      {
+        "caption": "Mass Rename Selection…",
+        "command": "side_bar_mass_rename",
+        "args": {
+          "paths": []
+        }
+      }
+    ]
+  },
+  {
+    "caption": "-"
+  },
+  {
+    "caption": "Cut",
+    "command": "side_bar_cut",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Copy",
+    "command": "side_bar_copy",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Copy Name",
+    "command": "side_bar_copy_name",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Copy Path",
+    "command": "side_bar_copy_path_absolute_from_project_encoded",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Copy Dir Path",
+    "command": "side_bar_copy_dir_path",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Copy as Text",
+    "children": [
+      {
+        "caption": "Relative Path From View Encoded",
+        "command": "side_bar_copy_path_relative_from_view_encoded",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "Relative Path From View",
+        "command": "side_bar_copy_path_relative_from_view",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "-"
+      },
+      {
+        "caption": "Relative Path From Project Encoded",
+        "command": "side_bar_copy_path_relative_from_project_encoded",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "Relative Path From Project",
+        "command": "side_bar_copy_path_relative_from_project",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "-"
+      },
+      {
+        "caption": "Absolute Path From Project Encoded",
+        "command": "side_bar_copy_path_absolute_from_project_encoded",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "Absolute Path From Project",
+        "command": "side_bar_copy_path_absolute_from_project",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "-"
+      },
+      {
+        "caption": "Path as URI",
+        "command": "side_bar_copy_path_encoded",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "Path",
+        "command": "side_bar_copy_path",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "-"
+      },
+      {
+        "caption": "Name Encoded",
+        "command": "side_bar_copy_name_encoded",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "-"
+      },
+      {
+        "caption": "URL",
+        "command": "side_bar_copy_url",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "URL Decoded",
+        "command": "side_bar_copy_url_decoded",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "-"
+      },
+      {
+        "caption": "Tag a",
+        "command": "side_bar_copy_tag_ahref",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "Tag img",
+        "command": "side_bar_copy_tag_img",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "Tag script",
+        "command": "side_bar_copy_tag_script",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "Tag style",
+        "command": "side_bar_copy_tag_style",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "-"
+      },
+      {
+        "caption": "Project Folders",
+        "command": "side_bar_copy_project_directories",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "-"
+      },
+      {
+        "caption": "Content as UTF-8",
+        "command": "side_bar_copy_content_utf8",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "Content as Data URI",
+        "command": "side_bar_copy_content_base64",
+        "args": {
+          "paths": []
+        }
+      }
+    ]
+  },
+  {
+    "caption": "Paste",
+    "command": "side_bar_paste",
+    "args": {
+      "paths": [],
+      "in_parent": "False"
+    }
+  },
+  {
+    "caption": "Paste in Parent",
+    "command": "side_bar_paste",
+    "args": {
+      "paths": [],
+      "in_parent": "True"
+    }
+  },
+  {
+    "caption": "-"
+  },
+  {
+    "caption": "Duplicate…",
+    "command": "side_bar_duplicate",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "-"
+  },
+  {
+    "caption": "Rename…",
+    "command": "side_bar_rename",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Move…",
+    "command": "side_bar_move",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "-"
+  },
+  {
+    "caption": "Delete",
+    "command": "side_bar_delete",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Empty",
+    "command": "side_bar_empty",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "-"
+  },
+  {
+    "caption": "Refresh",
+    "command": "refresh_folder_list"
+  },
+  {
+    "caption": "-"
+  },
+  {
+    "caption": "Project",
+    "children": [
+      {
+        "caption": "Edit Project",
+        "command": "side_bar_project_open_file",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "Edit Preview URLs",
+        "command": "side_bar_preview_edit_urls",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "-"
+      },
+      {
+        "command": "prompt_add_folder",
+        "caption": "Add Folder to Project…",
+        "mnemonic": "d"
+      },
+      {
+        "caption": "-"
+      },
+      {
+        "caption": "Promote as Project Folder",
+        "command": "side_bar_project_item_add",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "Exclude From Project",
+        "command": "side_bar_project_item_exclude",
+        "args": {
+          "paths": []
+        }
+      },
+      {
+        "caption": "-"
+      },
+      {
+        "command": "side_bar_project_item_exclude_from_index",
+        "args": {
+          "paths": [],
+          "type": "item"
+        }
+      },
+      {
+        "command": "side_bar_project_item_exclude_from_index",
+        "args": {
+          "paths": [],
+          "type": "file"
+        }
+      },
+      {
+        "command": "side_bar_project_item_exclude_from_index",
+        "args": {
+          "paths": [],
+          "type": "extension"
+        }
+      },
+      {
+        "caption": "-"
+      },
+      {
+        "caption": "Remove Folder from Project",
+        "id": "side-bar-project-item-remove-folder",
+        "command": "side_bar_project_item_remove_folder",
+        "args": {
+          "paths": []
+        }
+      }
+    ]
+  },
+  {
+    "caption": "-"
+  }
+]

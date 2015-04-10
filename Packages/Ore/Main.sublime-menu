@@ -1,0 +1,39 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children": [
+            {
+                "caption": "-",
+                "id": "ore-separator",
+            },
+            {
+                "caption": "Ore – Preferences",
+                "command": "open_file", "args": { "file": "${packages}/Ore/Preferences.sublime-settings" },
+            },
+            {
+                "caption": "Ore – Context Menu",
+                "command": "open_file", "args": { "file": "${packages}/Ore/Context.sublime-menu" },
+            },
+            {
+                "caption": "Ore – Key Bindings",
+                "command": "open_file", "args": {
+                    "file": "${packages}/Ore/Default (Windows).sublime-keymap",
+                    "platform": "Windows"
+                },
+            },
+            {
+                "caption": "Ore – Key Bindings",
+                "command": "open_file", "args": {
+                    "file": "${packages}/Ore/Default (OSX).sublime-keymap",
+                    "platform": "OSX"
+                },
+            },
+            {
+                "caption": "Ore – Theme",
+                "command": "open_file", "args": { "file": "${packages}/Ore/Original.tmTheme" },
+            },
+        ]
+    }
+]

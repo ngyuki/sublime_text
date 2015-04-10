@@ -1,0 +1,7 @@
+[
+    // platform は効果ないっぽい
+    { "caption": "TortoiseGit: status", "command": "tortoise_git_status", "platform": "Windows" },
+    { "caption": "TortoiseGit: log",    "command": "tortoise_git_log",    "platform": "Windows" },
+    { "caption": "TortoiseGit: fetch",  "command": "tortoise_git_fetch",  "platform": "Windows" },
+    { "caption": "TortoiseGit: commit", "command": "tortoise_git_commit", "platform": "Windows" },
+]

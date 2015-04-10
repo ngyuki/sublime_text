@@ -1,0 +1,11 @@
+[
+    { "caption": "-"},
+    { "command": "ore_bash", "caption": "Bash", "platform": "Windows" },
+    { "caption": "-"},
+    { "command": "tortoise_git_fetch",  "caption": "TortoiseGit fetch",  "platform": "Windows" },
+    { "command": "tortoise_git_commit", "caption": "TortoiseGit commit", "platform": "Windows" },
+    { "command": "tortoise_git_status", "caption": "TortoiseGit status", "platform": "Windows" },
+    { "command": "tortoise_git_log",    "caption": "TortoiseGit log",    "platform": "Windows" },
+    { "caption": "-"},
+    { "command": "ore_markdown_preview", "caption": "Markdown Preview", "platform": "Windows" },
+]

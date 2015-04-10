@@ -1,0 +1,9 @@
+{
+    "extensions": ["md"],
+
+    // 保存時に行末の空白を削除しない
+    "trim_trailing_white_space_on_save": false,
+
+    // ワードラップはソースコード以外なら自動的に有効
+    "word_wrap": "auto",
+}

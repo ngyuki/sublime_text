@@ -1,0 +1,12 @@
+{
+    // supported encoding list, name & code in pair
+    "encoding_list" : [
+        //["Chinese Simplified (GBK)", "GBK"],
+        //["Chinese Traditional (BIG5)", "BIG5"],
+        //["Korean (EUC-KR)", "EUC-KR"],
+        ["Japanese (CP932)", "CP932"],
+        ["Japanese (Shift_JIS)", "Shift_JIS"],
+        ["Japanese (EUC-JP)", "EUC-JP"],
+        ["UTF-8", "UTF-8"]
+    ],
+}

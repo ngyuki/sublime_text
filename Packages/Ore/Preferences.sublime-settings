@@ -1,0 +1,171 @@
+{
+	// 無効にするパッケージ (override from User)
+	"ignored_packages": [
+		"Vintage",
+		"ConvertToUTF8",
+		//"Markdown",
+		//"Markdown Extended",
+		"MarkdownEditing",
+
+		// lang
+		"ActionScript",
+		"AppleScript",
+		"ASP",
+		"Clojure",
+		"D",
+		"Erlang",
+		"Groovy",
+		"Haskell",
+		"LaTeX",
+		"Lisp",
+		"Lua",
+		"Matlab",
+		"Objective-C",
+		"OCaml",
+		"Pascal",
+		"R",
+		"RestructuredText",
+		"Scala",
+		"TCL",
+		"Textile",
+	],
+
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	// Editor View Settings
+
+	// カラースキーム (override from User)
+	"color_scheme": "Packages/Ore/Original.tmTheme",
+
+	// フォント ... a\*zあいうえお
+	//"font_face": "Consolas",
+	//"font_face": "Inconsolata",
+	//"font_face": "CodeFont",
+	//"font_face": "Ricty Diminished",
+	//"font_face": "Ricty Diminished Discord",
+	//"font_face": "Migu 1M",
+	//"font_face": "VL Gothic",
+	//"font_face": "Source Code Pro",
+	//"font_face": "ＭＳ ゴシック",
+
+	// フォントサイズ (override from User)
+	"font_size": 10.2,
+
+	// フォントのレンダリングオプション
+	"font_options": [
+		//"no_bold",
+		//"no_italic",
+		//"no_antialias",
+		//"gray_antialias",
+		//"subpixel_antialias",
+		//"gdi",
+		//"directwrite",
+	],
+
+	// 行間
+	"line_padding_top": 1,
+	"line_padding_bottom": 1,
+
+	// ルーラー
+	"rulers": [100],
+
+	// 自動折り返し
+	"word_wrap": false,
+
+	// 選択行のハイライト
+	"highlight_line": true,
+
+	// ミニマップのビューポートを常に表示
+	"always_show_minimap_viewport": true,
+
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	// Editor Settings
+
+	// 自動判別できないときの文字コード
+	"fallback_encoding": "UTF-8",
+
+	// デフォルトの改行コード
+	"default_line_ending": "unix",
+
+	// 閉じ括弧の補完
+	"auto_match_enabled": false,
+
+	// タブキーで空白を挿入
+	"translate_tabs_to_spaces": true,
+
+	// 保存時に行末の空白を削除
+	"trim_trailing_white_space_on_save": true,
+
+	// ファイルの終端が改行で終わるようにする
+	"ensure_newline_at_eof_on_save": true,
+
+	// タブ入力時に補完候補から自動入力
+	"tab_completion": false,
+
+	// 入力補完を自動的に表示する
+	"auto_complete": true,
+
+	// 未選択のときの切り取りやコピーを行に対して行う
+	"copy_with_empty_selection": false,
+
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	// User Interface Settings
+
+	// テーマの設定
+	"theme": "Soda Light 3.sublime-theme",
+
+	// Sodaテーマのタブを角丸に
+    "soda_classic_tabs": true,
+
+    // Sodaテーマのサイドバーにアイコンをつける
+    "soda_folder_icons": true,
+
+	// 変更されたタブの文字色を変更
+	"highlight_modified_tabs": true,
+
+	// タブを閉じるボタンの表示
+	"show_tab_close_buttons": false,
+
+	// サイドバーに表示するフォルダ名を太字にする
+	"bold_folder_labels": true,
+
+	// 文字コードをステータスバーに表示
+	"show_encoding": true,
+
+	// 改行コードをステータスバーに表示
+	"show_line_endings": true,
+
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	// Application Behavior Settings
+
+	// 終了時に未保存のファイルがあれば確認
+	"hot_exit": false,
+
+	// 起動時に前回終了時のファイルを開く
+	"remember_open_files": false,
+
+	// 開いている最後のファイルを閉じたときにアプリを終了
+	"close_windows_when_empty": true,
+
+	// タイトルバーにファイルのフルパスを表示
+	"show_full_path": true,
+
+	// 除外するフォルダ
+	"folder_exclude_patterns": [
+		".svn",
+		".git",
+		".hg",
+		".sublime",
+		".vagrant",
+		".vagrant-*",
+		".dropbox.cache",
+	],
+
+	// 除外するファイル
+	//"file_exclude_patterns": [],
+
+	// 別のアプリのフォーカスが移った時に自動的にファイルを保存
+	"save_on_focus_lost": true,
+
+	// true ならファイルの保存時に中間ファイルを使用
+	"atomic_save": false
+}
