@@ -36,30 +36,40 @@
 	// カラースキーム (override from User)
 	"color_scheme": "Packages/Ore/Original.tmTheme",
 
+	// フォントサイズ (override from User)
+	"font_size": 10.2,
+
 	// フォント ... a\*zあいうえお
 	//"font_face": "Consolas",
-	//"font_face": "Inconsolata",
 	//"font_face": "CodeFont",
+	//"font_face": "ＭＳ ゴシック",
+	//"font_face": "Inconsolata",
 	//"font_face": "Ricty Diminished",
 	//"font_face": "Ricty Diminished Discord",
 	//"font_face": "Migu 1M",
 	//"font_face": "VL Gothic",
 	//"font_face": "Source Code Pro",
-	//"font_face": "ＭＳ ゴシック",
-
-	// フォントサイズ (override from User)
-	"font_size": 10.2,
+	//"font_face": "Myrica M",
+	//"font_face": "MyricaM M",
+	//"font_face": "MeiryoKe_Gothic",
+	//"font_face": "MeiryoKe_Console",
 
 	// フォントのレンダリングオプション
-	"font_options": [
-		//"no_bold",
-		//"no_italic",
-		//"no_antialias",
-		//"gray_antialias",
-		//"subpixel_antialias",
-		//"gdi",
-		//"directwrite",
-	],
+	//"font_options": [
+	//
+	//	太字/斜体/ラウンド体を無効化(複数選択/OSX専用)
+	//	"no_bold",
+	//	"no_italic",
+	//	"no_antialias",
+	//
+	//	アンチエイリアスの方法(単一選択/directwriteでは無効)
+	//	"gray_antialias",
+	//	"subpixel_antialias",
+	//
+	//	フォント描画のAPI(Windows専用)
+	//	"gdi",
+	//	"directwrite",
+	//],
 
 	// 行間
 	"line_padding_top": 1,
