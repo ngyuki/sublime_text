@@ -531,6 +531,18 @@
       </dict>
     </dict>
 
+    <!-- Markdown 引用 -->
+    <dict>
+      <key>name</key>
+      <string>Markup: Quote</string>
+      <key>scope</key>
+      <string>markup.quote.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0044ff</string>
+      </dict>
+    </dict>
 
     <!-- JavaScript 型名 -->
     <dict>
