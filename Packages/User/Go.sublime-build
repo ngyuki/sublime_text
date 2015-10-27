@@ -1,0 +1,6 @@
+{
+    // "shell_cmd": "make"
+    "cmd": ["go", "run", "$file"],
+    //"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    //"selector": "source.python"
+}

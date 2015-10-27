@@ -2,3 +2,5 @@
 /*.system-ca-bundle
 /*.user-ca-bundle
 /Preferences.sublime-settings
+/GoSublime/
+/GoSublime-aux.sublime-settings
