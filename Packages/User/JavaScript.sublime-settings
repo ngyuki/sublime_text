@@ -1,5 +1,7 @@
 {
-  "extensions": [
-    "tf",
-  ]
+	"extensions":
+	[
+		"tf",
+		"tfvars"
+	]
 }
