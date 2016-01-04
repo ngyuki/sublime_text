@@ -153,10 +153,10 @@
 	// 起動時に前回終了時のファイルを開く
 	"remember_open_files": false,
 
-	// 開いている最後のファイルを閉じたときにアプリを終了
-	"close_windows_when_empty": true,
+	// 開いている最後のファイルを閉じたときにアプリを終了する/しない
+	"close_windows_when_empty": false,
 
-	// タイトルバーにファイルのフルパスを表示
+	// タイトルバーにファイルのフルパスを表示する/しない
 	"show_full_path": true,
 
 	// 除外するフォルダ
