@@ -8,7 +8,9 @@
 		"reop",
 		"repo",
 		"cfg",
-		".envrc"
+		".envrc",
+		".zshrc",
+		".htaccess"
 	],
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true
