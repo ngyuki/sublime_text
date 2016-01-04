@@ -80,6 +80,13 @@
     ]
   },
   {
+    "caption": "Diff by WinMerge",
+    "command": "ore_win_merge_for_side_bar",
+    "args": {
+      "paths": []
+    }
+  },
+  {
     "caption": "-"
   },
   {

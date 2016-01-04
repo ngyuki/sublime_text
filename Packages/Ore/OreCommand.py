@@ -15,6 +15,13 @@ class Ore:
             cwd = dir)
         sublime.status_message("Open Bash in " + dir)
 
+    def openWinMerge(path1, path2):
+        dir = os.path.dirname(path2)
+        subprocess.Popen(
+            executable = 'D:\\app\\WinMerge\\WinMergeU.exe',
+            args = ["/r", "/u", path1, path2],
+            cwd = dir)
+
 class OreBashCommand(sublime_plugin.TextCommand):
 
     def detect_path(self):
@@ -40,6 +47,16 @@ class OreBashForSideBarCommand(sublime_plugin.WindowCommand):
 
     def is_enabled(self, paths = []):
         return len(paths) == 1
+
+class OreWinMergeForSideBarCommand(sublime_plugin.WindowCommand):
+
+    def run(self, paths = []):
+        if len(paths) == 2:
+            Ore.openWinMerge(paths[0], paths[1])
+
+    def is_enabled(self, paths = []):
+        return len(paths) == 2
+
 
 class OreMarkdownPreviewCommand(sublime_plugin.TextCommand):
 
