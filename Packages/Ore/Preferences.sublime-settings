@@ -171,7 +171,9 @@
 	],
 
 	// 除外するファイル
-	//"file_exclude_patterns": [],
+	"file_exclude_patterns": [
+		".temoto_local"
+	],
 
 	// 別のアプリのフォーカスが移った時に自動的にファイルを保存
 	"save_on_focus_lost": true,
