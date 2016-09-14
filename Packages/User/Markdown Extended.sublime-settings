@@ -6,4 +6,7 @@
 
     // ワードラップはソースコード以外なら自動的に有効
     "word_wrap": "auto",
+
+    // Markdown MarkdownEditing
+    "mde.list_indent_bullets": ["-", "-", "-"],
 }
