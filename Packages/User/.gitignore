@@ -1,6 +1,5 @@
-/*.merged-ca-bundle
-/*.system-ca-bundle
-/*.user-ca-bundle
-/Preferences.sublime-settings
-/GoSublime/
-/GoSublime-aux.sublime-settings
+/encoding_cache.json
+/Package Control.last-run
+/Package Control.merged-ca-bundle
+/Package Control.system-ca-bundle
+/Package Control.user-ca-bundle

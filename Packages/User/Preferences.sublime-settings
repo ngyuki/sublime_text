@@ -1,0 +1,31 @@
+{
+	"ignored_packages":
+	[
+        "Vintage",
+        "ConvertToUTF8",
+        "Markdown",
+        //"Markdown Extended",
+        //"MarkdownEditing",
+
+        // lang
+        "ActionScript",
+        "AppleScript",
+        "ASP",
+        "Clojure",
+        "D",
+        "Erlang",
+        "Haskell",
+        "LaTeX",
+        "Lisp",
+        "Lua",
+        "Matlab",
+        "Objective-C",
+        "OCaml",
+        "Pascal",
+        "R",
+        "RestructuredText",
+        "Scala",
+        "TCL",
+        "Textile",
+	]
+}

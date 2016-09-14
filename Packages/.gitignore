@@ -1,0 +1,9 @@
+*.bak
+*.pyc
+*.cache
+
+/*/
+
+!/User/
+!/Default/
+!/Ore/

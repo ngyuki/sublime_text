@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoFileName",
+		"ConvertToUTF8",
+		"EditorConfig",
+		"Git",
+		"GitGutter",
+		"IMESupport",
+		"INI",
+		"Markdown Extended",
+		"MarkdownEditing",
+		"Package Control",
+		"SyncedSideBar",
+		"Theme - Soda"
+	]
+}
