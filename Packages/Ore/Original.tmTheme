@@ -416,22 +416,7 @@
       </dict>
     </dict>
 
-    <!-- Markdown 見出し -->
-    <dict>
-      <key>name</key>
-      <string>Markup: Heading</string>
-      <key>scope</key>
-      <string>markup.heading.markdown</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#ff0000</string>
-        <key>background</key>
-        <string>#ffffcc</string>
-      </dict>
-    </dict>
-
-    <!-- Markdown 見出し 下線形式 -->
+    <!-- Markdown 見出し Lv.1 -->
     <dict>
       <key>name</key>
       <string>Markup: Heading Setext-style Lv.1</string>
@@ -440,15 +425,15 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string>bold</string>
+        <string>bold underline</string>
         <key>foreground</key>
         <string>#ff0000</string>
         <key>background</key>
-        <string>#ffffcc</string>
+        <string>#ffff88</string>
       </dict>
     </dict>
 
-    <!-- Markdown 見出し 下線形式 -->
+    <!-- Markdown 見出し Lv.2 -->
     <dict>
       <key>name</key>
       <string>Markup: Heading Setext-style Lv.2</string>
@@ -462,6 +447,19 @@
         <string>#ff0000</string>
         <key>background</key>
         <string>#ffffcc</string>
+      </dict>
+    </dict>
+
+    <!-- Markdown 見出し Lv.3 -->
+    <dict>
+      <key>name</key>
+      <string>Markup: Heading Setext-style Lv.3</string>
+      <key>scope</key>
+      <string>markup.heading.3.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ff0000</string>
       </dict>
     </dict>
 
