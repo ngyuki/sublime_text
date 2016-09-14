@@ -3,9 +3,9 @@
 	"ignored_packages": [
 		"Vintage",
 		"ConvertToUTF8",
-		//"Markdown",
+		"Markdown",
 		//"Markdown Extended",
-		"MarkdownEditing",
+		//"MarkdownEditing",
 
 		// lang
 		"ActionScript",
@@ -14,7 +14,6 @@
 		"Clojure",
 		"D",
 		"Erlang",
-		"Groovy",
 		"Haskell",
 		"LaTeX",
 		"Lisp",
