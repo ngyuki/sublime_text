@@ -9,20 +9,25 @@ if platform.system() == "Windows":
     def detect_path():
         fn = sublime.active_window().active_view().file_name()
         if fn and len(fn) > 0:
-            if os.path.isdir(fn):
-                return fn
-            else:
-                return os.path.dirname(fn)
+            return fn
         folders = sublime.active_window().folders()
         if len(folders) > 0:
             return folders[0]
         return None
 
     def open_tgit(command):
-        cwd = detect_path()
-        exe = os.environ["TGIT_BIN_DIR"] + "\\TortoiseGitProc.exe"
-        arg = "/command:" + command
-        subprocess.Popen(args = [exe, arg], cwd = cwd)
+        path = detect_path()
+        if os.path.isdir(path):
+            cwd = path
+        else:
+            cwd = os.path.dirname(path)
+
+        if "TGIT_BIN_DIR" in os.environ:
+            exe = os.environ["TGIT_BIN_DIR"] + "\\TortoiseGitProc.exe"
+        else:
+            exe = "C:\\Program Files\\TortoiseGit\\bin\\TortoiseGitProc.exe"
+
+        subprocess.Popen(args = [exe, "/command:" + command, "/path:" + path], cwd = cwd)
 
     class TortoiseGitStatus(sublime_plugin.TextCommand):
         def run(self, edit):
