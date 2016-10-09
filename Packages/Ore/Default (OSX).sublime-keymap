@@ -1,9 +1,15 @@
 [
+    // BOF/EOF への移動を無効化
     { "keys": ["super+up"], "command": "__dummy__" },
     { "keys": ["super+down"], "command": "__dummy__" },
     { "keys": ["super+shift+up"], "command": "__dummy__" },
     { "keys": ["super+shift+down"], "command": "__dummy__" },
 
+    // スクロール
     { "keys": ["alt+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
     { "keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
+
+    // 行拡張
+    { "keys": ["super+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["super+down"], "command": "select_lines", "args": {"forward": true} },
 ]
