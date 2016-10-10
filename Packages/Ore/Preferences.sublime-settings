@@ -171,6 +171,7 @@
 
 	// 除外するファイル
 	"file_exclude_patterns": [
+		".DS_Store",
 		".temoto_local"
 	],
 
