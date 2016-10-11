@@ -10,7 +10,7 @@ class Ore:
         else:
             dir = os.path.dirname(path)
         subprocess.Popen(
-            executable = 'd:\\app\\ConEmu\\ConEmu64.exe',
+            executable = 'C:\\Program Files\\ConEmu\\ConEmu64.exe',
             args = ["/dir", dir, "/cmd", "bash", "--login"],
             cwd = dir)
         sublime.status_message("Open Bash in " + dir)
@@ -18,7 +18,7 @@ class Ore:
     def openWinMerge(path1, path2):
         dir = os.path.dirname(path2)
         subprocess.Popen(
-            executable = 'D:\\app\\WinMerge\\WinMergeU.exe',
+            executable = 'C:\\Program Files\\WinMerge\\WinMergeU.exe',
             args = ["/r", "/u", path1, path2],
             cwd = dir)
 
@@ -45,6 +45,9 @@ class OreBashForSideBarCommand(sublime_plugin.WindowCommand):
         if len(paths) == 1:
             Ore.openBash(paths[0])
 
+    def is_visible(self, paths = []):
+        return len(paths) == 1
+
     def is_enabled(self, paths = []):
         return len(paths) == 1
 
@@ -57,6 +60,8 @@ class OreWinMergeForSideBarCommand(sublime_plugin.WindowCommand):
     def is_enabled(self, paths = []):
         return len(paths) == 2
 
+    def is_visible(self, paths = []):
+        return len(paths) == 2
 
 class OreMarkdownPreviewCommand(sublime_plugin.TextCommand):
 
