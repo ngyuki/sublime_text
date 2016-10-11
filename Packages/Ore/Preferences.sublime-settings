@@ -35,9 +35,6 @@
 	// カラースキーム (override from User)
 	"color_scheme": "Packages/Ore/Original.tmTheme",
 
-	// フォントサイズ (override from User)
-	"font_size": 10.2,
-
 	// フォント ... a\*zあいうえお
 	//"font_face": "Consolas",
 	//"font_face": "CodeFont",
