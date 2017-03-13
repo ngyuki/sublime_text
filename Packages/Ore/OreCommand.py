@@ -17,9 +17,10 @@ class Ore:
 
     def openWinMerge(path1, path2):
         dir = os.path.dirname(path2)
+        prog = 'C:\\Program Files\\WinMerge\\WinMergeU.exe'
         subprocess.Popen(
-            executable = 'C:\\Program Files\\WinMerge\\WinMergeU.exe',
-            args = ["/r", "/u", path1, path2],
+            shell = False,
+            args = [prog, "/u", "/r", path1, path2],
             cwd = dir)
 
 class OreBashCommand(sublime_plugin.TextCommand):
