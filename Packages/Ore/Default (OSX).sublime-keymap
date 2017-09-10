@@ -12,4 +12,8 @@
     // 行拡張
     { "keys": ["super+up"], "command": "select_lines", "args": {"forward": false} },
     { "keys": ["super+down"], "command": "select_lines", "args": {"forward": true} },
+
+    // 履歴を戻る/進む
+    { "keys": ["super+alt+up"], "command": "jump_back" },
+    { "keys": ["super+alt+down"], "command": "jump_forward" },
 ]
