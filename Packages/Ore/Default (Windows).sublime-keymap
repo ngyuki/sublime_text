@@ -39,8 +39,8 @@
     { "keys": ["ctrl+shift+m"], "command": "expand_selection", "args": {"to": "scope"} },
 
     /* 超便利
-    ctrl+shift+d
-    ctrl+shift+k, ctrl+shift+d
+    ctrl+d
+    ctrl+k, ctrl+d
     ctrl+shift+m
     */
 
