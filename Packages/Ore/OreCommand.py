@@ -70,8 +70,7 @@ class OreMarkdownPreviewCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         fn = self.view.file_name()
         dir = os.path.dirname(fn)
-        subprocess.Popen(['bash', '-c', 'markdown $1', '--', fn], cwd=dir, shell=True)
-        sublime.status_message("Markdown Preview " + fn)
+        subprocess.Popen(["mdlive", fn], cwd=dir, shell=True)
 
     def is_enabled(self):
         fn = self.view.file_name()
