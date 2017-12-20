@@ -1,8 +1,5 @@
 [
   {
-    "caption": "-"
-  },
-  {
     "caption": "Open Bash in Folder",
     "command": "ore_bash_for_side_bar",
     "args": {
@@ -15,8 +12,5 @@
     "args": {
       "paths": []
     }
-  },
-  {
-    "caption": "-"
   },
 ]
