@@ -1,11 +1,9 @@
 {
-	// 無効にするパッケージ (override from User)
+	// 無効にするパッケージ
 	"ignored_packages": [
 		"Vintage",
 		"ConvertToUTF8",
-		"Markdown",
-		//"Markdown Extended",
-		//"MarkdownEditing",
+		"GitGutter",
 
 		// lang
 		"ActionScript",
@@ -19,6 +17,9 @@
 		"Lisp",
 		"Lua",
 		"Matlab",
+		"Markdown",
+		//"Markdown Extended",
+		//"MarkdownEditing",
 		"Objective-C",
 		"OCaml",
 		"Pascal",
@@ -29,26 +30,40 @@
 		"Textile",
 	],
 
+	// カラースキーム
+	"color_scheme": "Packages/Ore/Original.tmTheme",
+
+	// テーマの設定
+	"theme": "Soda Light 3.sublime-theme",
+
 	////////////////////////////////////////////////////////////////////////////////////////////////
 	// Editor View Settings
 
-	// カラースキーム (override from User)
-	"color_scheme": "Packages/Ore/Original.tmTheme",
+    // フォント
+    //
+    // |\"'`^~@*__|
+    // |0123456789|
+    // |あいうえお|
+    // |草彅剛です|
 
-	// フォント ... a\*zあいうえお
-	//"font_face": "Consolas",
-	//"font_face": "CodeFont",
-	//"font_face": "ＭＳ ゴシック",
-	//"font_face": "Inconsolata",
-	//"font_face": "Ricty Diminished",
-	//"font_face": "Ricty Diminished Discord",
-	//"font_face": "Migu 1M",
-	//"font_face": "VL Gothic",
-	//"font_face": "Source Code Pro",
-	//"font_face": "Myrica M",
-	//"font_face": "MyricaM M",
-	//"font_face": "MeiryoKe_Gothic",
-	//"font_face": "MeiryoKe_Console",
+    //"font_face": "M+ 1mn",
+    //"font_face": "Mgen+ 1mn",
+    //"font_face": "Consolas",
+    //"font_face": "ＭＳ ゴシック",
+    //"font_face": "Inconsolata",
+    //"font_face": "Ricty Diminished",
+    //"font_face": "Ricty Diminished Discord",
+    //"font_face": "Migu 1M Regular",
+    //"font_face": "VL Gothic Regular",
+    //"font_face": "Source Code Pro",
+    //"font_face": "Myrica M",
+    //"font_face": "MyricaM M",
+    //"font_face": "MeiryoKe_Gothic",
+    //"font_face": "MeiryoKe_Console",
+    //"font_face": "SourceHanCodeJP-Normal",
+    //"font_face": "SourceHanCodeJP-Regular",
+    //"font_face": "SourceHanCodeJP-Light",
+    //"font_face": "SourceHanCodeJP-ExtraLight",
 
 	// フォントのレンダリングオプション
 	//"font_options": [
@@ -58,11 +73,11 @@
 	//	"no_italic",
 	//	"no_antialias",
 	//
-	//	アンチエイリアスの方法(単一選択/directwriteでは無効)
+	//  アンチエイリアスの方法(単一選択/directwriteでは無効)
 	//	"gray_antialias",
 	//	"subpixel_antialias",
 	//
-	//	フォント描画のAPI(Windows専用)
+	//  フォント描画のAPI(Windows専用)
 	//	"gdi",
 	//	"directwrite",
 	//],
@@ -115,9 +130,6 @@
 
 	////////////////////////////////////////////////////////////////////////////////////////////////
 	// User Interface Settings
-
-	// テーマの設定
-	"theme": "Soda Light 3.sublime-theme",
 
 	// Sodaテーマのタブを角丸に
     "soda_classic_tabs": true,

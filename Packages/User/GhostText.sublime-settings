@@ -1,0 +1,9 @@
+{
+    "new_window_on_connect": false,
+    "close_view_on_disconnect": true,
+    "default_syntax": "Markdown Extended.tmLanguage",
+    //"host_to_syntax": {
+    //    "sandbox.onlinephpfunctions.com": "PHP.tmLanguage",
+    //    "textarea.org": "HTML.tmLanguage"
+    //},
+}

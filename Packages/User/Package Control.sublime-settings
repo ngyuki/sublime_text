@@ -5,17 +5,23 @@
 	],
 	"installed_packages":
 	[
+		"AsciiDoc",
+		"Asciidoctor",
 		"AutoFileName",
 		"ConvertToUTF8",
 		"EditorConfig",
+		"GhostText",
 		"Git",
 		"GitGutter",
+		"GoSublime",
 		"IMESupport",
 		"INI",
 		"Markdown Extended",
 		"MarkdownEditing",
 		"Package Control",
+		"SideBarEnhancements",
 		"SyncedSideBar",
+		"Terraform",
 		"Theme - Soda"
 	]
 }
