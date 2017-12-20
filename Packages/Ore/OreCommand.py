@@ -2,6 +2,7 @@ import sublime, sublime_plugin
 import os
 import subprocess
 import re
+import sys
 
 class Ore:
     def openBash(path):
@@ -47,10 +48,10 @@ class OreBashForSideBarCommand(sublime_plugin.WindowCommand):
             Ore.openBash(paths[0])
 
     def is_visible(self, paths = []):
-        return len(paths) == 1
+        return len(paths) == 1 and os.path.isdir(paths[0])
 
     def is_enabled(self, paths = []):
-        return len(paths) == 1
+        return len(paths) == 1 and os.path.isdir(paths[0])
 
 class OreWinMergeForSideBarCommand(sublime_plugin.WindowCommand):
 
