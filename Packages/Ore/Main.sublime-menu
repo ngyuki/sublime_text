@@ -32,7 +32,7 @@
             },
             {
                 "caption": "Ore – Theme",
-                "command": "open_file", "args": { "file": "${packages}/Ore/Original.tmTheme" },
+                "command": "open_file", "args": { "file": "${packages}/Ore/Ore.tmTheme" },
             },
             {
                 "caption": "-",

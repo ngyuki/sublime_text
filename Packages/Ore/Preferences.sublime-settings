@@ -31,7 +31,7 @@
 	],
 
 	// カラースキーム
-	"color_scheme": "Packages/Ore/Original.tmTheme",
+	"color_scheme": "Packages/Ore/Ore.tmTheme",
 
 	// テーマの設定
 	"theme": "Soda Light 3.sublime-theme",
