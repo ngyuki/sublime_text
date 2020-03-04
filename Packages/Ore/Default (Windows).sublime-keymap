@@ -52,4 +52,8 @@
 
     // 複数ペインに分割
     // ctrl+k, ctrl+up/down/left/right
+
+    // 同じ単語の選択
+    //{ "keys": ["ctrl+d"], "command": "find_under_expand" },
+    //{ "keys": ["ctrl+k", "ctrl+d"], "command": "find_under_expand_skip" },
 ]

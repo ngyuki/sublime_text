@@ -1,0 +1,9 @@
+{
+    "gscomplete_enabled": true,
+
+    "fmt_enabled": true,
+    "fmt_cmd": ["goimports"],
+
+    //"gslint_enabled": true,
+    //"comp_lint_enabled": true,
+}

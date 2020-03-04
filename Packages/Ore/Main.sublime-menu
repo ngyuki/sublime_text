@@ -39,8 +39,15 @@
                 "id": "oreore-separator",
             },
             {
-                "caption": "Ore Local – Preferences",
+                "caption": "Local – Preferences",
                 "command": "open_file", "args": { "file": "${packages}/Ore/Local/Preferences.sublime-settings" },
+            },
+            {
+                "caption": "Local – Key Bindings",
+                "command": "open_file", "args": {
+                    "file": "${packages}/Ore/Local/Default (Windows).sublime-keymap",
+                    "platform": "Windows"
+                },
             },
         ]
     }

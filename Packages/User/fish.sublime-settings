@@ -1,4 +1,7 @@
-// These settings override both User and Default settings for the fish syntax
 {
-    "tab_size": 2
+	"extensions":
+	[
+		"fish"
+	],
+	"tab_size": 2
 }

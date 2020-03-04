@@ -1,0 +1,12 @@
+{
+	"extensions":
+	[
+		"Dockerfile",
+		"Dockerfile.*",
+		".env",
+		".env.example",
+		"iptables",
+		"cf"
+	],
+	"tab_size": 2
+}

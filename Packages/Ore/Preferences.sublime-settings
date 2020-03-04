@@ -7,7 +7,7 @@
 
 		// lang
 		"ActionScript",
-		//"AppleScript",
+		"AppleScript",
 		"ASP",
 		"Clojure",
 		"D",
@@ -28,6 +28,25 @@
 		"Scala",
 		"TCL",
 		"Textile",
+
+        // xxx
+        // "AutoFileName",
+        // "IMESupport",
+        // "GhostText",
+        // "Git",
+
+        // "fish",
+        // "INI",
+        // "Terraform",
+        // "TypeScript",
+        // "AsciiDoc",
+        // "Asciidoctor",
+
+        // "SideBarEnhancements",
+        // "SyncedSideBar",
+
+        // "GoTools",
+        // "GoSublime",
 	],
 
 	// カラースキーム
@@ -46,31 +65,37 @@
     // |あいうえお|
     // |草彅剛です|
 
-    //"font_face": "M+ 1mn",
-    //"font_face": "Mgen+ 1mn",
     //"font_face": "Consolas",
-    //"font_face": "ＭＳ ゴシック",
     //"font_face": "Inconsolata",
-    //"font_face": "Ricty Diminished",
-    //"font_face": "Ricty Diminished Discord",
+    //"font_face": "M+ 1mn",
+    //"font_face": "MeiryoKe_Console",
+    //"font_face": "MeiryoKe_Gothic",
+    //"font_face": "Mgen+ 1mn",
     //"font_face": "Migu 1M Regular",
-    //"font_face": "VL Gothic Regular",
-    //"font_face": "Source Code Pro",
+    //"font_face": "Migu 1M",
     //"font_face": "Myrica M",
     //"font_face": "MyricaM M",
-    //"font_face": "MeiryoKe_Gothic",
-    //"font_face": "MeiryoKe_Console",
+    //"font_face": "Ricty Diminished Discord",
+    //"font_face": "Ricty Diminished",
+    //"font_face": "Source Code Pro",
+    //"font_face": "SourceHanCodeJP-ExtraLight",
+    //"font_face": "SourceHanCodeJP-Light",
     //"font_face": "SourceHanCodeJP-Normal",
     //"font_face": "SourceHanCodeJP-Regular",
-    //"font_face": "SourceHanCodeJP-Light",
-    //"font_face": "SourceHanCodeJP-ExtraLight",
+    //"font_face": "VL Gothic Regular",
+    //"font_face": "VL Gothic",
+    //"font_face": "ＭＳ ゴシック",
+
+    "font_face": "Utatane",
+    //"font_face": "Cica",
+    //"font_face": "Cascadia Code",
 
 	// フォントのレンダリングオプション
-	//"font_options": [
+	"font_options": [
 	//
-	//	太字/斜体/ラウンド体を無効化(複数選択/OSX専用)
+	//	太字/斜体/ラウンド体を無効化(複数選択)
 	//	"no_bold",
-	//	"no_italic",
+		"no_italic",
 	//	"no_antialias",
 	//
 	//  アンチエイリアスの方法(単一選択/directwriteでは無効)
@@ -80,7 +105,7 @@
 	//  フォント描画のAPI(Windows専用)
 	//	"gdi",
 	//	"directwrite",
-	//],
+	],
 
 	// 行間
 	"line_padding_top": 1,
@@ -165,7 +190,7 @@
 	"close_windows_when_empty": false,
 
 	// タイトルバーにファイルのフルパスを表示する/しない
-	"show_full_path": true,
+	"show_full_path": false,
 
 	// 除外するフォルダ
 	"folder_exclude_patterns": [
@@ -176,6 +201,7 @@
 		".vagrant",
 		".vagrant-*",
 		".dropbox.cache",
+		"node_modules",
 	],
 
 	// 除外するファイル
@@ -188,5 +214,12 @@
 	"save_on_focus_lost": true,
 
 	// true ならファイルの保存時に中間ファイルを使用
-	"atomic_save": false
+	"atomic_save": false,
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+    // Git Settings
+
+    // サイドバーとステータスバーの Git 情報を有効/無効
+    // コンテキストメニューから Sublime Merge が開くのが邪魔なので無効化
+    "show_git_status": false,
 }
