@@ -14,7 +14,7 @@
 		"GhostText",
 		"Git",
 		"GitGutter",
-		"GoSublime",
+		"GoTools",
 		"IMESupport",
 		"INI",
 		"Markdown Extended",
@@ -23,6 +23,7 @@
 		"SideBarEnhancements",
 		"SyncedSideBar",
 		"Terraform",
-		"Theme - Soda"
+		"Theme - Soda",
+		"TypeScript"
 	]
 }
