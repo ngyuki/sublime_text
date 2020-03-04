@@ -1,11 +1,11 @@
 [
-  {
-    "caption": "Open Bash in Folder",
-    "command": "ore_bash_for_side_bar",
-    "args": {
-      "paths": []
-    }
-  },
+  // {
+  //   "caption": "Open Bash in Folder",
+  //   "command": "ore_bash_for_side_bar",
+  //   "args": {
+  //     "paths": []
+  //   }
+  // },
   {
     "caption": "Diff files by WinMerge",
     "command": "ore_win_merge_for_side_bar",
